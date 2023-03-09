@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    color: rgb(209, 209, 191);
+    background-color: rgb(121, 43, 141);
+}
+
+.userName {
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.gameInfo {
+    margin: 0;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+.wipeButton {
+    background-color: rgb(121, 43, 141);
+    color: rgb(209, 209, 191);
+    font-family: inherit;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    border-color: rgb(209, 209, 191);
+}
+.wipeButton:hover{
+    background-color: rgb(142, 51, 165);
+}
+.leftSide {
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
