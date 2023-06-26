@@ -1,31 +1,37 @@
 .main {
-    background-color: rgb(38, 70, 70);
-    color: white;
-    width: 60vw;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+  background-color: rgb(38, 70, 70);
+  color: white;
+  width: 60vw;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .bigCounter {
-    font-size: 3rem;
-    margin: 0;
+  font-size: 3rem;
+  margin: 0;
 }
 
 .bigCounter span {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .catsPerClick {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .timesClicked {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .main {
+    width: 100%;
+  }
 }

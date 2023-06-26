@@ -24,20 +24,20 @@ const BigCat = () => {
   return (
     <div
       onMouseDown={() => {
-        dispatch(swapImage(true))
+        dispatch(swapImage(true));
         handleCatClick();
       }}
-      onMouseUp={()=>{
-        dispatch(swapImage(false))
+      onMouseUp={() => {
+        dispatch(swapImage(false));
       }}
-      onMouseLeave={()=>{
-        dispatch(swapImage(false))
+      onMouseLeave={() => {
+        dispatch(swapImage(false));
       }}
     >
       <img
         draggable={false}
         alt="pet the goddamn cat"
-        style={{ width: "40rem", height: "40rem", cursor: "grab" }}
+        style={{ width: "30rem", height: "30rem", cursor: "grab" }}
         src={clicked ? catClosed : catOpen}
       />
     </div>
